@@ -1,0 +1,4 @@
+path:
+  input_sql: ./sql/input/full.sql
+  output_sql: ./sql/out/
+
