@@ -2,3 +2,26 @@ path:
   input_sql: ./sql/input/full.sql
   output_sql: ./sql/out/
 
+spring:
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+information:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/INFORMATION_SCHEMA
+    username: root
+    password: "0987qwer!!"
+confirm:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/schema_confirm
+    username: root
+    password: "0987qwer!!"
+result:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/schema_result
+    username: root
+    password: "0987qwer!!"

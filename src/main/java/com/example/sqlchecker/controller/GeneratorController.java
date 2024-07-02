@@ -2,7 +2,7 @@ package com.example.sqlchecker.controller;
 
 import com.example.sqlchecker.config.FileChecker;
 import com.example.sqlchecker.config.FileGenerator;
-import com.example.sqlchecker.repository.SchemataRepository;
+import com.example.sqlchecker.repository.information.SchemataRepository;
 import com.example.sqlchecker.vo.SchemataVo;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
