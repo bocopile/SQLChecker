@@ -1,4 +1,4 @@
-package com.example.sqlchecker.repository;
+package com.example.sqlchecker.repository.information;
 
 import com.example.sqlchecker.vo.SchemataVo;
 import org.springframework.data.jpa.repository.JpaRepository;
